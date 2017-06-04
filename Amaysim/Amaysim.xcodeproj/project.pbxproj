@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12304A451EE2628D00295072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A441EE2628D00295072 /* AppDelegate.swift */; };
+		12304A4A1EE2628D00295072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12304A481EE2628D00295072 /* Main.storyboard */; };
+		12304A4C1EE2628E00295072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12304A4B1EE2628D00295072 /* Assets.xcassets */; };
+		12304A4F1EE2628E00295072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12304A4D1EE2628E00295072 /* LaunchScreen.storyboard */; };
+		12304A5A1EE2628E00295072 /* AmaysimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A591EE2628E00295072 /* AmaysimTests.swift */; };
+		12304A651EE2628E00295072 /* AmaysimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A641EE2628E00295072 /* AmaysimUITests.swift */; };
+		12304A781EE2648000295072 /* Properies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A771EE2648000295072 /* Properies.swift */; };
+		12304A7A1EE264C600295072 /* ColorProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A791EE264C600295072 /* ColorProcessor.swift */; };
+		12304A7C1EE2673D00295072 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A7B1EE2673D00295072 /* LogInViewController.swift */; };
+		12304A7E1EE2686900295072 /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 12304A7D1EE2686900295072 /* collection.json */; };
+		12304A801EE268B700295072 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A7F1EE268B700295072 /* HomeViewController.swift */; };
+		12304A821EE26A0E00295072 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A811EE26A0E00295072 /* Account.swift */; };
+		12304A841EE4050300295072 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A831EE4050300295072 /* Helper.swift */; };
+		12304A861EE458B200295072 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A851EE458B200295072 /* Subscriptions.swift */; };
+		12304A881EE458C900295072 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A871EE458C900295072 /* Services.swift */; };
+		12304A8C1EE4636400295072 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12304A8B1EE4636400295072 /* Products.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12304A561EE2628E00295072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12304A391EE2628D00295072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12304A401EE2628D00295072;
+			remoteInfo = Amaysim;
+		};
+		12304A611EE2628E00295072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12304A391EE2628D00295072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12304A401EE2628D00295072;
+			remoteInfo = Amaysim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12304A411EE2628D00295072 /* Amaysim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amaysim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12304A441EE2628D00295072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12304A491EE2628D00295072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12304A4B1EE2628D00295072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12304A4E1EE2628E00295072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12304A501EE2628E00295072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12304A551EE2628E00295072 /* AmaysimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaysimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12304A591EE2628E00295072 /* AmaysimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaysimTests.swift; sourceTree = "<group>"; };
+		12304A5B1EE2628E00295072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12304A601EE2628E00295072 /* AmaysimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaysimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12304A641EE2628E00295072 /* AmaysimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaysimUITests.swift; sourceTree = "<group>"; };
+		12304A661EE2628E00295072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12304A771EE2648000295072 /* Properies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Properies.swift; path = Properties/Properies.swift; sourceTree = "<group>"; };
+		12304A791EE264C600295072 /* ColorProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorProcessor.swift; path = Functions/ColorProcessor.swift; sourceTree = "<group>"; };
+		12304A7B1EE2673D00295072 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = Controller/LogInViewController.swift; sourceTree = "<group>"; };
+		12304A7D1EE2686900295072 /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		12304A7F1EE268B700295072 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		12304A811EE26A0E00295072 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = Model/Account.swift; sourceTree = "<group>"; };
+		12304A831EE4050300295072 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Functions/Helper.swift; sourceTree = "<group>"; };
+		12304A851EE458B200295072 /* Subscriptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Subscriptions.swift; path = Model/Subscriptions.swift; sourceTree = "<group>"; };
+		12304A871EE458C900295072 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Services.swift; path = Model/Services.swift; sourceTree = "<group>"; };
+		12304A8B1EE4636400295072 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Products.swift; path = Model/Products.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12304A3E1EE2628D00295072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A521EE2628E00295072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A5D1EE2628E00295072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12304A381EE2628D00295072 = {
+			isa = PBXGroup;
+			children = (
+				12304A431EE2628D00295072 /* Amaysim */,
+				12304A581EE2628E00295072 /* AmaysimTests */,
+				12304A631EE2628E00295072 /* AmaysimUITests */,
+				12304A421EE2628D00295072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12304A421EE2628D00295072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12304A411EE2628D00295072 /* Amaysim.app */,
+				12304A551EE2628E00295072 /* AmaysimTests.xctest */,
+				12304A601EE2628E00295072 /* AmaysimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12304A431EE2628D00295072 /* Amaysim */ = {
+			isa = PBXGroup;
+			children = (
+				12304A761EE2646700295072 /* Properties */,
+				12304A751EE2645E00295072 /* Functions */,
+				12304A741EE2645800295072 /* Model */,
+				12304A731EE2644F00295072 /* Controller */,
+				12304A721EE2644500295072 /* View */,
+				12304A441EE2628D00295072 /* AppDelegate.swift */,
+				12304A481EE2628D00295072 /* Main.storyboard */,
+				12304A4B1EE2628D00295072 /* Assets.xcassets */,
+				12304A4D1EE2628E00295072 /* LaunchScreen.storyboard */,
+				12304A501EE2628E00295072 /* Info.plist */,
+			);
+			path = Amaysim;
+			sourceTree = "<group>";
+		};
+		12304A581EE2628E00295072 /* AmaysimTests */ = {
+			isa = PBXGroup;
+			children = (
+				12304A591EE2628E00295072 /* AmaysimTests.swift */,
+				12304A5B1EE2628E00295072 /* Info.plist */,
+			);
+			path = AmaysimTests;
+			sourceTree = "<group>";
+		};
+		12304A631EE2628E00295072 /* AmaysimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12304A641EE2628E00295072 /* AmaysimUITests.swift */,
+				12304A661EE2628E00295072 /* Info.plist */,
+			);
+			path = AmaysimUITests;
+			sourceTree = "<group>";
+		};
+		12304A721EE2644500295072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		12304A731EE2644F00295072 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12304A7B1EE2673D00295072 /* LogInViewController.swift */,
+				12304A7F1EE268B700295072 /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12304A741EE2645800295072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12304A8B1EE4636400295072 /* Products.swift */,
+				12304A811EE26A0E00295072 /* Account.swift */,
+				12304A851EE458B200295072 /* Subscriptions.swift */,
+				12304A871EE458C900295072 /* Services.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12304A751EE2645E00295072 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				12304A791EE264C600295072 /* ColorProcessor.swift */,
+				12304A831EE4050300295072 /* Helper.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		12304A761EE2646700295072 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				12304A7D1EE2686900295072 /* collection.json */,
+				12304A771EE2648000295072 /* Properies.swift */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12304A401EE2628D00295072 /* Amaysim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12304A691EE2628E00295072 /* Build configuration list for PBXNativeTarget "Amaysim" */;
+			buildPhases = (
+				12304A3D1EE2628D00295072 /* Sources */,
+				12304A3E1EE2628D00295072 /* Frameworks */,
+				12304A3F1EE2628D00295072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amaysim;
+			productName = Amaysim;
+			productReference = 12304A411EE2628D00295072 /* Amaysim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12304A541EE2628E00295072 /* AmaysimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12304A6C1EE2628E00295072 /* Build configuration list for PBXNativeTarget "AmaysimTests" */;
+			buildPhases = (
+				12304A511EE2628E00295072 /* Sources */,
+				12304A521EE2628E00295072 /* Frameworks */,
+				12304A531EE2628E00295072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12304A571EE2628E00295072 /* PBXTargetDependency */,
+			);
+			name = AmaysimTests;
+			productName = AmaysimTests;
+			productReference = 12304A551EE2628E00295072 /* AmaysimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12304A5F1EE2628E00295072 /* AmaysimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12304A6F1EE2628E00295072 /* Build configuration list for PBXNativeTarget "AmaysimUITests" */;
+			buildPhases = (
+				12304A5C1EE2628E00295072 /* Sources */,
+				12304A5D1EE2628E00295072 /* Frameworks */,
+				12304A5E1EE2628E00295072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12304A621EE2628E00295072 /* PBXTargetDependency */,
+			);
+			name = AmaysimUITests;
+			productName = AmaysimUITests;
+			productReference = 12304A601EE2628E00295072 /* AmaysimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12304A391EE2628D00295072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = franz.deguzman;
+				TargetAttributes = {
+					12304A401EE2628D00295072 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					12304A541EE2628E00295072 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12304A401EE2628D00295072;
+					};
+					12304A5F1EE2628E00295072 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12304A401EE2628D00295072;
+					};
+				};
+			};
+			buildConfigurationList = 12304A3C1EE2628D00295072 /* Build configuration list for PBXProject "Amaysim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12304A381EE2628D00295072;
+			productRefGroup = 12304A421EE2628D00295072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12304A401EE2628D00295072 /* Amaysim */,
+				12304A541EE2628E00295072 /* AmaysimTests */,
+				12304A5F1EE2628E00295072 /* AmaysimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12304A3F1EE2628D00295072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12304A4F1EE2628E00295072 /* LaunchScreen.storyboard in Resources */,
+				12304A4C1EE2628E00295072 /* Assets.xcassets in Resources */,
+				12304A4A1EE2628D00295072 /* Main.storyboard in Resources */,
+				12304A7E1EE2686900295072 /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A531EE2628E00295072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A5E1EE2628E00295072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12304A3D1EE2628D00295072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12304A801EE268B700295072 /* HomeViewController.swift in Sources */,
+				12304A841EE4050300295072 /* Helper.swift in Sources */,
+				12304A7C1EE2673D00295072 /* LogInViewController.swift in Sources */,
+				12304A821EE26A0E00295072 /* Account.swift in Sources */,
+				12304A7A1EE264C600295072 /* ColorProcessor.swift in Sources */,
+				12304A451EE2628D00295072 /* AppDelegate.swift in Sources */,
+				12304A861EE458B200295072 /* Subscriptions.swift in Sources */,
+				12304A8C1EE4636400295072 /* Products.swift in Sources */,
+				12304A881EE458C900295072 /* Services.swift in Sources */,
+				12304A781EE2648000295072 /* Properies.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A511EE2628E00295072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12304A5A1EE2628E00295072 /* AmaysimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12304A5C1EE2628E00295072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12304A651EE2628E00295072 /* AmaysimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12304A571EE2628E00295072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12304A401EE2628D00295072 /* Amaysim */;
+			targetProxy = 12304A561EE2628E00295072 /* PBXContainerItemProxy */;
+		};
+		12304A621EE2628E00295072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12304A401EE2628D00295072 /* Amaysim */;
+			targetProxy = 12304A611EE2628E00295072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12304A481EE2628D00295072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12304A491EE2628D00295072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12304A4D1EE2628E00295072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12304A4E1EE2628E00295072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12304A671EE2628E00295072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12304A681EE2628E00295072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12304A6A1EE2628E00295072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Amaysim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.Amaysim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12304A6B1EE2628E00295072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Amaysim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.Amaysim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12304A6D1EE2628E00295072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmaysimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.AmaysimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaysim.app/Amaysim";
+			};
+			name = Debug;
+		};
+		12304A6E1EE2628E00295072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmaysimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.AmaysimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaysim.app/Amaysim";
+			};
+			name = Release;
+		};
+		12304A701EE2628E00295072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AmaysimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.AmaysimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Amaysim;
+			};
+			name = Debug;
+		};
+		12304A711EE2628E00295072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AmaysimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaysim.AmaysimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Amaysim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12304A3C1EE2628D00295072 /* Build configuration list for PBXProject "Amaysim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12304A671EE2628E00295072 /* Debug */,
+				12304A681EE2628E00295072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12304A691EE2628E00295072 /* Build configuration list for PBXNativeTarget "Amaysim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12304A6A1EE2628E00295072 /* Debug */,
+				12304A6B1EE2628E00295072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12304A6C1EE2628E00295072 /* Build configuration list for PBXNativeTarget "AmaysimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12304A6D1EE2628E00295072 /* Debug */,
+				12304A6E1EE2628E00295072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12304A6F1EE2628E00295072 /* Build configuration list for PBXNativeTarget "AmaysimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12304A701EE2628E00295072 /* Debug */,
+				12304A711EE2628E00295072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12304A391EE2628D00295072 /* Project object */;
+}
